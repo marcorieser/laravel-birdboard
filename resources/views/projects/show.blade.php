@@ -1,14 +1,12 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
-<h1>{{$project->title}}</h1>
-<div>{{$project->description}}</div>
-</body>
-</html>
+@extends('layouts.app')
+
+@section('content')
+    <header class="flex items-end justify-between mb-3 py-3">
+        <h2 class="text-grey font-normal text-sm">My Projects</h2>
+        <a href="/projects/create" class="button">New Project</a>
+    </header>
+
+    <main>
+
+    </main>
+@endsection
